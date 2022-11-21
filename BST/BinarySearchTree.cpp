@@ -98,8 +98,7 @@ int main()
         cout<<"\n2-Preorder";
         cout<<"\n3-Inorder";
         cout<<"\n4-Postorder";
-        cout<<"\n5-Display";
-        cout<<"\n6-Exit\n";
+        cout<<"\n5-Exit\n";
         cout<<"\nEnter your choice : ";
         cin>>ch;
 
@@ -126,9 +125,6 @@ int main()
                         B.Postorder(B.getRoot());
                         break;
                     case 5:
-                        cout<<"\n~~~~~DISPLAY~~~~~~~\n\n";
-                        break;
-                    case 6:
                         cout<<"\n~~~Exit~~~\n";
                         // getch();
                         return 0;
