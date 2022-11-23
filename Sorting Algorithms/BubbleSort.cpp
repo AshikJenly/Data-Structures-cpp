@@ -7,6 +7,7 @@ class BubbleSort{
           BubbleSort(){
               cout<<"\nEnter Size of Array : ";
               cin>>size;
+		  arr=new int[size];
               getData();
               cout<<"\nBefore Sorting \n";
               display();
