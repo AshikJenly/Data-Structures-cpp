@@ -1,0 +1,33 @@
+#include<iostream>
+
+class Insertion{
+  private:
+      int n;
+      int array[];
+      
+  public:
+      Insertion(){};
+      void Sort(){};
+      void Display(){};
+}
+
+void Insertion::Display()
+{
+    cout<<"\nElements in the array =>");
+    for(int i=0;i<n;i++)
+        {
+          cout<<array[i]<<" ";
+        }
+}
+
+void Insertion::Sort()
+{
+  
+}
+
+int main()
+{
+
+  return 0;
+}
+ 
